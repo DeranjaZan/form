@@ -1,0 +1,329 @@
+
+body{
+	margin: 0; 
+	padding: 0 ;
+  background-image: url('images/knjige.jpg');
+   font-family: 'Quicksand', sans-serif;
+   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+
+}
+hr{
+border: 0;
+    height: 3px;
+   
+   background-image: linear-gradient(to right, rgba(60, 179, 113, 1),rgba(60, 179, 113, 0.3), rgba(0, 0, 0, 0));
+}
+span{
+		color:red;
+		font-size:20px;
+}
+input{
+	 font-family: 'Quicksand', sans-serif;
+	 height:20px;
+}
+input:focus {
+	outline: none !important;
+	border:3px solid #3cb371;
+	border-radius: 3px;
+    background-color: rgba(169,169,169,0.1);
+	
+
+}
+select:focus {
+	outline: none !important;
+	border:3px solid #3cb371;
+	border-radius: 3px;
+    background-color: rgba(169,169,169,0.1);
+	
+
+}
+textarea:focus {
+	outline: none !important;
+	border:3px solid #3cb371;
+	border-radius: 3px;
+    background-color: rgba(169,169,169,0.1);
+	
+
+}
+select{
+	font-size:15px;
+	width:255px;
+height:25px;
+font-family: 'Quicksand', sans-serif;
+margin-left:30px;
+}
+label{
+	
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+.zgori{
+	overflow: hidden;
+  background-color: #333;
+  height:100px;
+  top: 0;
+  width:100%;
+  color:white;
+  border-radius: 5px;
+
+	
+}
+
+.stalni{
+	
+	overflow: hidden;
+	position: absolute;
+	margin:0;
+	padding:0;
+	top: 0;
+	margin-left:100px;
+	
+	
+	
+	
+}
+.naslov{
+	margin-left:310px;
+	font-size:30px;
+	font-weight:bold;
+	
+	
+	
+	
+}
+
+.prvi{
+	margin:auto;
+	padding: 16px;
+	
+	overflow:hidden;
+	width:50%;
+	background: rgba(255, 255, 255, 0.95);
+	padding-left:10%;
+	
+ 
+	
+}
+
+.notri{
+	width:100%;
+	display: flex;
+	height:auto;
+	
+	
+}
+
+.lev{
+	margin-right: auto;
+	margin-left: auto;
+	width:70%;
+	height:auto;
+	padding-left:10px;
+	border-left:3px solid #3cb371; opacity:1;
+	
+	
+}
+
+.des{
+	float:left;
+	height:auto;
+	overflow:hidden;
+	text-overflow: ellipsis; 
+	width:30%;
+	
+	position: relative
+}
+.des p{
+	
+	position: absolute;
+	top:40%;
+	margin-left:10%;
+}
+
+.sirok{
+	width:278px;
+	
+}
+
+.text{
+	margin:0;
+	padding:0;
+}
+textarea{
+	resize:none;
+	width:278px;
+	height:130px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.sirsi{
+	width:77px;
+	
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+ 
+}
+
+
+.smalltxt{
+	margin:0;
+	padding:0;
+	margin-left:10px;
+	padding-top:2px;
+	font-size:10px;
+	
+}
+footer{
+	overflow:hidden;
+	position: relative;
+	padding-top:10px;
+	
+	text-align:center;
+	background-color:#333;
+	height:150px;
+	width:100%;
+	color :white;
+	border-radius: 5px;
+
+}
+.footertext{
+	 font-family: 'Quicksand', sans-serif;
+
+}
+.submit{
+	margin:auto;
+	width:33%;
+	padding-bottom:3px;
+	
+	
+}
+.link{
+	
+	position:absolute;
+	top:44%;
+	
+	margin-right:50%;
+	margin-left:50%;
+	
+	
+}
+.linki{
+	position:absolute;
+	top:55%;
+	
+	margin-right:53%;
+	margin-left:47%;
+	
+	}
+input[type=submit]{
+  background-color: #3cb371;
+  border: none;
+  color: white;
+  padding:30px;
+  padding-top:15px;
+  
+  text-align: center;
+  font-size: 16px;
+  
+  opacity: 0.6;
+  transition: 0.3s;
+  
+  
+  cursor: pointer;
+}
+
+input[type=submit]:hover {opacity: 1}
+
+a{
+	color:#A0A0A0;	
+		
+}
+
+.form-popup {
+  display: none;
+  overflow:scroll;
+  position :fixed;
+   width: 25%;
+  height:auto;
+  top:100px;
+  right:50%;
+  left:37%;
+  text-align:center;
+  z-index: 9;
+  background-color: white;
+  padding:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+#datum{
+	width:215px;
+	height:25px;
+}
+
+
+.btn{
+	
+	margin-top:100px;
+	padding:5px;
+	font-family: 'Quicksand', sans-serif;
+
+	width:49%;
+	
+	
+}
+input[type="radio"]{
+    vertical-align: bottom;
+}
+input[type="checkbox"]{
+    vertical-align: bottom;
+}
+#strinjam{
+	margin-left:12px;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
